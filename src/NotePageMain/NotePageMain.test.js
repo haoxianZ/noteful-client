@@ -10,7 +10,7 @@ describe(`NotePageMain component`, () => {
   })
 
   // enzyme doesn't yet support React.createContext
-  it.skip('renders a Note with note prop', () => {
+  it('renders a Note with note prop', () => {
     const props = {
       match: {
         params: {
@@ -33,7 +33,7 @@ describe(`NotePageMain component`, () => {
   })
 
   // enzyme doesn't yet support React.createContext
-  it.skip(`splits the content by \\n or \\n\\r, with a p foreach`, () => {
+  it(`splits the content by \\n or \\n\\r, with a p foreach`, () => {
     const props = {
       match: {
         params: {
